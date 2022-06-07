@@ -1,0 +1,63 @@
+<mvc:View controllerName="SchoolMSchoolM.controller.employee" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="Admin login">
+				<content>
+			        	<Table noDataText="Drop column list items here and columns in the area above" id="__table0" items="{Employee>/Employee}" mode="Delete" delete="ondel">
+						<items>
+							<ColumnListItem id="__item0">
+								<cells>
+									<Text text="{Employee>em_ID}" id="__text01"/>
+									<Text text="{Employee>em_fname}" id="__text12"/>
+									<Text text="{Employee>em_lname}" id="__text0"/>
+									<Text text="{Employee>em_function}" id="__text1"/>
+									<Text text="{Employee>em_address}" id="__text2"/>
+									<Text text="{Employee>em_phone}" id="__text3"/>
+									<Text text="{Employee>em_user}" id="__text4"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+						<columns>
+							<Column id="__column01">
+								<header>
+									<Label text="Employee ID" id="__label01"/>
+								</header>
+							</Column>
+							<Column id="__column10">
+								<header>
+									<Label text="Employee First Name" id="__label101"/>
+								</header>
+							</Column>
+							<Column id="__column0">
+								<header>
+									<Label text="Employee Last Name." id="__label0"/>
+								</header>
+							</Column>
+							<Column id="__column1">
+								<header>
+									<Label text="Function" id="__label1"/>
+								</header>
+							</Column>
+							<Column id="__column2">
+								<header>
+									<Label text="Address" id="__label2"/>
+								</header>
+							</Column>
+							<Column id="__column3">
+								<header>
+									<Label text="Phone" id="__label3"/>
+								</header>
+							</Column>
+							<Column id="__column4">
+								<header>
+									<Label text="User" id="__label4"/>
+								</header>
+							</Column>
+						</columns>
+					</Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

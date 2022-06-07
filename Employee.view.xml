@@ -1,0 +1,72 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="USCHOOLUSCHOOL.controller.Employee">
+	<App>
+		<pages>
+			<Page title="Employee">
+				<content>
+					<Table noDataText="Drop column list items here and columns in the area above" id="__table0" items="{model>/ZEXPENSESSet}" mode="Delete" delete="ondel">
+						<items>
+							<ColumnListItem id="__item0">
+								<cells>
+									<Text text="{model>EmId}" id="__text01"/>
+									<Text text="{model>EmName}" id="__text12"/>
+									<Text text="{model>ExNo}" id="__text0"/>
+									<Text text="{model>ExCat}" id="__text1"/>
+									<Text text="{model>ExTitle}" id="__text2"/>
+									<Text text="{model>ExDes}" id="__text3"/>
+									<Text text="{model>ExAmount}" id="__text4"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+						<columns>
+								<Column id="__column01">
+								<header>
+									<Label text="Employee ID" id="__label01"/>
+								</header>
+							</Column>
+								<Column id="__column10">
+								<header>
+									<Label text="Employee Name" id="__label101"/>
+								</header>
+							</Column>
+							<Column id="__column0">
+								<header>
+									<Label text="Expense No." id="__label0"/>
+								</header>
+							</Column>
+							<Column id="__column1">
+								<header>
+									<Label text="Category" id="__label1"/>
+								</header>
+							</Column>
+							<Column id="__column2">
+								<header>
+									<Label text="Title" id="__label2"/>
+								</header>
+							</Column>
+							<Column id="__column3">
+								<header>
+									<Label text="Description" id="__label3"/>
+								</header>
+							</Column>
+							<Column id="__column4">
+								<header>
+									<Label text="Amount" id="__label4"/>
+								</header>
+							</Column>
+						</columns>
+					</Table>
+				</content>
+				<footer>
+					<Bar>
+						<contentLeft>
+						<Button text="Add Expense" press="Add" type="Accept"/>
+						</contentLeft>
+						<contentRight>
+							<!--<Text text="Login"/>-->
+						</contentRight>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,13 @@
+{
+"Expenses":	[
+    {
+        "Amount": "50euro",
+        "Catogry": "Transport",
+        "Description": "Was Gone to Lahore",
+        "em_idd": 1,
+        "em_name": "Mohamed Azzouzi",
+        "ex_id": 1,
+        "title": "Dinner for lunch pause"
+    }
+]
+}

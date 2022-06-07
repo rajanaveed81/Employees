@@ -1,0 +1,104 @@
+{
+	"Employee": [
+    {
+        "em_ID": 1,
+        "em_address": "onestreet 1",
+        "em_fname": "Mohamed",
+        "em_function": "consultat",
+        "em_lname": "Azzouzi",
+        "em_pass": "employee1",
+        "em_phone": "+3244561265",
+        "em_user": "employee1"
+    },
+    {
+        "em_ID": 2,
+        "em_address": "twostreet 2",
+        "em_fname": "Johan",
+        "em_function": "marketing",
+        "em_lname": "Peeters",
+        "em_pass": "employee2",
+        "em_phone": "+3224567984",
+        "em_user": "employee2"
+    },
+    {
+        "em_ID": 3,
+        "em_address": "threestreet 3",
+        "em_fname": "Kenzo",
+        "em_function": "IT specialist",
+        "em_lname": "Cuypir",
+        "em_pass": "employee3",
+        "em_phone": "+3247121115",
+        "em_user": "employee3"
+    },
+    {
+        "em_ID": 4,
+        "em_address": "fourstreet 4",
+        "em_fname": "Yartho",
+        "em_function": "IT specialist",
+        "em_lname": "Tiele",
+        "em_pass": "employee4",
+        "em_phone": "+3246588745",
+        "em_user": "employee4"
+    },
+    {
+        "em_ID": 5,
+        "em_address": "fivestreet 5",
+        "em_fname": "Ines",
+        "em_function": "marketing",
+        "em_lname": "Kala",
+        "em_pass": "employee5",
+        "em_phone": "+3247121117",
+        "em_user": "employee5"
+    },
+    {
+        "em_ID": 6,
+        "em_address": "sixstreet 6",
+        "em_fname": "Fatima",
+        "em_function": "marketing",
+        "em_lname": "Benda",
+        "em_pass": "employee6",
+        "em_phone": "+3247121116",
+        "em_user": "employee6"
+    },
+    {
+        "em_ID": 7,
+        "em_address": "sevenstreet 7",
+        "em_fname": "Issa",
+        "em_function": "IT specialist",
+        "em_lname": "Doumb",
+        "em_pass": "employee7",
+        "em_phone": "+3247121118",
+        "em_user": "employee7"
+    },
+    {
+        "em_ID": 8,
+        "em_address": "eightstreet 8",
+        "em_fname": "Elon",
+        "em_function": "IT specialist",
+        "em_lname": "Mislo",
+        "em_pass": "employee8",
+        "em_phone": "+3247121119",
+        "em_user": "employee8"
+    },
+    {
+        "em_ID": 9,
+        "em_address": "ninestreet 9",
+        "em_fname": "Chris",
+        "em_function": "IT specialist",
+        "em_lname": "Brico",
+        "em_pass": "employee9",
+        "em_phone": "+3247121120",
+        "em_user": "employee9"
+    },
+    {
+        "em_ID": 10,
+        "em_address": "tenstreet 10",
+        "em_fname": "Frank",
+        "em_function": "marketing",
+        "em_lname": "Peter",
+        "em_pass": "employee10",
+        "em_phone": "+3249878541",
+        "em_user": "employee10"
+    }
+]
+}

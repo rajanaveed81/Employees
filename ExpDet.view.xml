@@ -1,0 +1,28 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="USCHOOLUSCHOOL.controller.ExpDet">
+	<App>
+		<pages>
+			<Page title="Expenses">
+				<content>
+					<sap.ui.layout.form:SimpleForm editable="true" layout="ResponsiveGridLayout" xmlns:sap.ui.layout.form="sap.ui.layout.form"
+						xmlns:sap.ui.core="sap.ui.core" id="__form0">
+						<sap.ui.layout.form:content>
+							<sap.ui.core:Title text="Title" id="__title0"/>
+							<Label text="Expense No"/>
+							<Input width="100%" value="{ExNo}" id="__input0"/>
+							<Label text="Catogery"/>
+							<Input width="100%" value="{ExCat}" id="__input1"/>
+							<Label text="Title" id="__label1"/>
+							<Input width="100%" value="{ExTitle}" id="__input2"/>
+							<Label text="Description"/>
+							<Input width="100%" value="{ExDes}" id="__input3"/>
+							<Label text="Amount"/>
+							<Input width="100%" value="{ExAmount}" id="__input4"/>
+						</sap.ui.layout.form:content>
+					</sap.ui.layout.form:SimpleForm>
+				</content>
+				
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

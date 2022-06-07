@@ -1,0 +1,39 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="USCHOOLUSCHOOL.controller.EmpDet">
+	<App>
+		<pages>
+			<Page title="Admin">
+				<Table noDataText="Drop column list items here and columns in the area above" id="__table0" items="{model>/ZEXPENSESSet}">
+					<items>
+						<ColumnListItem id="__item0">
+							<cells>
+								<Text text="{ExNo}" id="__text0"/>
+								<Text text="{ExCat}" id="__text1"/>
+								<Text text="{ExTitle}" id="__text2"/>
+								<Text text="{ExDes}" id="__text3"/>
+								<Text text="{ExAmount}" id="__text4"/>
+							</cells>
+						</ColumnListItem>
+					</items>
+					<columns>
+						<Column id="__column0">
+							<header>
+								<Label text="Header 1" id="__label0"/>
+							</header>
+						</Column>
+						<Column id="__column1">
+							<header>
+								<Label text="Header 2" id="__label1"/>
+							</header>
+						</Column>
+						<Column id="__column2">
+							<header>
+								<Label text="Header 3" id="__label2"/>
+							</header>
+						</Column>
+					</columns>
+				</Table>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

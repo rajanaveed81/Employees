@@ -1,0 +1,66 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="USCHOOLUSCHOOL.controller.Admin">
+	<App>
+		<pages>
+			<Page title="Admin" showNavButton="true" navButtonPress="onNavBack">
+				<content>
+				
+					<Table noDataText="Drop column list items here and columns in the area above" id="table0" items="{model>/ZEMPLOYESet}" includeItemInSelection="true" mode="Delete" selectionChange="change" delete="onDel">
+						<items>
+							<ColumnListItem id="__item0">
+								<cells>
+									<Text text="{model>EmId}" id="__text"/>
+									<Text text="{model>EmFname}" id="__text0"/>
+									<Text text="{model>EmLname}" id="__text1"/>
+									<Text text="{model>Function}" id="__text2"/>
+									<Text text="{model>Phone}" id="__text3"/>
+									<Text text="{model>Address}" id="__text4"/>
+						<!--//			<Button id="onedit" press="onedit" icon="sap-icon://edit"/>-->
+								</cells>
+							</ColumnListItem>
+						</items>
+						<columns>
+							<Column id="__column">
+								<header>
+									<Label text="Employee ID" id="__label"/>
+								</header>
+							</Column>
+							<Column id="__column0">
+								<header>
+									<Label text="First Name" id="__label0"/>
+								</header>
+							</Column>
+							<Column id="__column1">
+								<header>
+									<Label text="Last Name" id="__label1"/>
+								</header>
+							</Column>
+							<Column id="__column2">
+								<header>
+									<Label text="Function" id="__label2"/>
+								</header>
+							</Column>
+							<Column id="__column3">
+								<header>
+									<Label text="Phone" id="__label3"/>
+								</header>
+							</Column>
+							<Column id="__column4">
+								<header>
+									<Label text="Address" id="__label4"/>
+								</header>
+							</Column>
+							
+							
+						
+								
+									<Column id="__column6">
+						
+								<header/>
+							</Column>
+						</columns>
+					</Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,24 @@
+{
+   "User":	[
+    {
+    	"ad_id": 1,
+        "ad_fname": "Zakaria",
+        "ad_lname": "Boubker",
+        "address": "bobstreet 5",
+        "function": "manager",
+        "phone": "+32465784216",
+        "UserId": "zakaria",        
+        "Password": "zakaria123"
+    },
+    {        
+    	"ad_id": 2,
+        "ad_fname": "Jarne",
+        "ad_lname": "Dehaes",
+        "address": "Popstreet 6",
+        "function": "manager",
+        "phone": "+32412756324",
+        "UserId": "Jarne",
+        "Password": "jarne123"
+    }
+]
+}

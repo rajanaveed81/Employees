@@ -1,0 +1,80 @@
+<mvc:View controllerName="SchoolMSchoolM.controller.admin" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="Login">
+				<content>
+					<VBox fitContainer="true" justifyContent="Center" alignContent="Start" alignItems="Center">
+						<items>
+							<Input id="uid" placeholder="User ID"/>
+							<Input id="pasw" placeholder="Password" type="Password"/>
+							<!--<Input id="user" placeholder="User Type" />-->
+							<Select xmlns:sap.ui.core="sap.ui.core" selectedItem="Element sap.ui.core.ListItem#__item0" selectedKey="item1" selectedItemId="__item0"
+								id="select">
+								<items>
+									<sap.ui.core:ListItem text="Admin" key="item1" id="__item0"/>
+									<sap.ui.core:ListItem text="Employee" key="item2" id="__item1"/>
+								</items>
+							</Select>
+							<Button width="12rem" text="Login" type="Emphasized" press="onClick"/>
+						</items>
+					</VBox>
+					<Table noDataText="Drop column list items here and columns in the area above" id="table0" visible="true" items="{User>/User}"	>
+						<items>
+							<ColumnListItem id="__item">
+								<cells>
+									<Text text="{User>UserId}" id="__text1"/>
+									<Text text="{User>Password}" id="__text2"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+						<columns>
+							<Column id="__column1">
+								<header>
+									<Label text="Header 2" id="__label1"/>
+								</header>
+							</Column>
+							<Column id="__column2">
+								<header>
+									<Label text="Header 3" id="__label2"/>
+								</header>
+							</Column>
+						</columns>
+					</Table>
+					<Table noDataText="Drop column list items here and columns in the area above" id="table1" visible="true" items="{Employee>/Employee}" >
+						<items>
+							<ColumnListItem id="__item3">
+								<cells>
+									<Text text="{Employee>em_user}" id="__text4"/>
+									<Text text="{Employee>em_pass}" id="__text5"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+						<columns>
+							<Column id="__column4">
+								<header>
+									<Label text="Header 2" id="__label4"/>
+								</header>
+							</Column>
+							<Column id="__column5">
+								<header>
+									<Label text="Header 3" id="__label5"/>
+								</header>
+							</Column>
+						</columns>
+					</Table>
+				</content>
+				<footer>
+					<Bar>
+						<contentLeft>
+							<Text text="Login"/>
+						</contentLeft>
+						<contentRight>
+							<Text text="Login"/>
+						</contentRight>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
